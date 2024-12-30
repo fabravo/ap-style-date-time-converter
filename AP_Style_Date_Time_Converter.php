@@ -1,10 +1,11 @@
 <?php
 /*
-Plugin Name: Frank's Super Cool AP Style Date and Time Converter
-Description: Converts dates and times displayed on the site to AP Style dynamically, including Gutenberg blocks.
-Version: 1.0
-Author: Frank A. Bravo
-Author URI: https://www.LinkedIn.com/in/fabravo/
+ * Plugin Name: Frank's Super Cool AP Style Date and Time Converter
+ * Plugin URI: https://github.com/fabravo/wordpress-ap-style-date-time-converter
+ * Description: Converts dates and times displayed on the site to AP Style dynamically, including Gutenberg blocks.
+ * Version: 1.0
+ * Author: Frank A. Bravo
+ * Author URI: https://www.LinkedIn.com/in/fabravo/
 */
 
 // Hook into the_content filter for Gutenberg blocks and dynamic content
