@@ -6,6 +6,8 @@
  * Version: 1.0
  * Author: Frank A. Bravo
  * Author URI: https://www.LinkedIn.com/in/fabravo/
+ * License: GPLv3
+ * License URI: http://www.gnu.org/licenses/gpl-3.0
 */
 
 // Hook into the_content filter for Gutenberg blocks and dynamic content
