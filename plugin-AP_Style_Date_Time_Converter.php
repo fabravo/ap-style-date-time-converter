@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: Frank's Super Cool AP Style Date and Time Converter
- * Plugin URI: https://github.com/fabravo/wordpress-ap-style-date-time-converter
+ * Plugin Name: AP Style Date and Time Converter
+ * Plugin URI: https://github.com/fabravo/ap-style-date-time-converter
  * Description: Converts dates and times displayed on the site to AP Style dynamically, including Gutenberg blocks.
  * Version: 1.0
  * Author: Frank A. Bravo
@@ -60,4 +60,3 @@ function convert_ap_style_time($time, $format = '', $post = null) {
     $time = preg_replace('/\b(\d{1,2}:\d{2})\s?pm\b/i', '$1 p.m.', $time);
     return $time;
 }
-?>
